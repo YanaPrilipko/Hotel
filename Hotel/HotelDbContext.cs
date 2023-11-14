@@ -23,7 +23,7 @@ namespace Hotel
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-             optionsBuilder.UseNpgsql("Server=127.0.0.1;Port=5432;User Id=pgАdmin;Password=1111;Database=Hotel;");
+             optionsBuilder.UseNpgsql("Server=localhost;Port=5432;User Id=postgres;Password=1111;Database=Hotel;");
         }
     }
 }

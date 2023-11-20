@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "wLCO9yo/b3J8yhH27Difcwjkf/b+hUZ3bcTFuMRflQ0=",
+  "Hash": "A3SbePWCJRyXZGuzryjUMmu8kSMohkzhKQSQICGgRtA=",
   "Source": "Hotel",
   "BasePath": "_content/Hotel",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Hotel\\wwwroot",
+      "Source": "Hotel",
+      "ContentRoot": "D:\\Рoзробка С#\\Hotel\\Hotel\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Рoзробка С#\\Hotel\\Hotel\\Hotel\\wwwroot\\Index.html",
+      "SourceId": "Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Рoзробка С#\\Hotel\\Hotel\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "RelativePath": "Index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    }
+  ]
 }

@@ -52,3 +52,4 @@ D:\Рoзробка С#\Hotel\Hotel\Hotel\obj\Debug\net6.0\refint\Hotel.dll
 D:\Рoзробка С#\Hotel\Hotel\Hotel\obj\Debug\net6.0\Hotel.pdb
 D:\Рoзробка С#\Hotel\Hotel\Hotel\obj\Debug\net6.0\Hotel.genruntimeconfig.cache
 D:\Рoзробка С#\Hotel\Hotel\Hotel\obj\Debug\net6.0\ref\Hotel.dll
+D:\Рoзробка С#\Hotel\Hotel\Hotel\bin\Debug\net6.0\Hotel.staticwebassets.runtime.json

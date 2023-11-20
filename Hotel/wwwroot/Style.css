@@ -1,0 +1,63 @@
+﻿body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav a {
+    font-size: 20px;
+    color: #05140c;
+    text-decoration: none;
+    padding:20px;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    z-index: 40;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+    background: #b4cebb;
+}
+
+section {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 0;
+    opacity: 0;
+    transition: all ease-in .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    section:target {
+        opacity: 1;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+    }
+
+
+#house,
+#orders,
+#customer {
+    background: #e6f5ee;
+}
+
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1
+    }
+}
+
